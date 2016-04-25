@@ -15,6 +15,19 @@
 		6B33BF7A1CCDC5AA0024C9B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B33BF781CCDC5AA0024C9B5 /* LaunchScreen.storyboard */; };
 		6B33BF851CCDC5AA0024C9B5 /* KTCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BF841CCDC5AA0024C9B5 /* KTCategoriesTests.m */; };
 		6B33BF901CCDC5AA0024C9B5 /* KTCategoriesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BF8F1CCDC5AA0024C9B5 /* KTCategoriesUITests.m */; };
+		6B33BFA21CCDC6890024C9B5 /* NSNotificationCenter+KTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BFA11CCDC6890024C9B5 /* NSNotificationCenter+KTKit.m */; };
+		6B33BFA51CCDC6B60024C9B5 /* NSString+KTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BFA41CCDC6B60024C9B5 /* NSString+KTKit.m */; };
+		6B33BFA81CCDC6F40024C9B5 /* NSDate+KTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BFA71CCDC6F40024C9B5 /* NSDate+KTKit.m */; };
+		6B33BFAB1CCDC7AA0024C9B5 /* NSArray+KTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BFAA1CCDC7AA0024C9B5 /* NSArray+KTKit.m */; };
+		6B33BFAE1CCDC7D20024C9B5 /* UIApplication+KTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BFAD1CCDC7D20024C9B5 /* UIApplication+KTKit.m */; };
+		6B33BFB11CCDC8290024C9B5 /* UIControl+KTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BFB01CCDC8290024C9B5 /* UIControl+KTKit.m */; };
+		6B33BFB41CCDC8A90024C9B5 /* UIDevice+KTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BFB31CCDC8A90024C9B5 /* UIDevice+KTKit.m */; };
+		6B33BFB71CCDC8DD0024C9B5 /* UIGestureRecognizer+KTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BFB61CCDC8DD0024C9B5 /* UIGestureRecognizer+KTKit.m */; };
+		6B33BFBA1CCDC9730024C9B5 /* UIImage+KTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BFB91CCDC9730024C9B5 /* UIImage+KTKit.m */; };
+		6B33BFBD1CCDC9950024C9B5 /* UIView+KTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BFBC1CCDC9950024C9B5 /* UIView+KTKit.m */; };
+		6B33BFC01CCDC9B90024C9B5 /* UIView+KTLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BFBF1CCDC9B90024C9B5 /* UIView+KTLayout.m */; };
+		6B33BFC31CCDC9F50024C9B5 /* UIColor+KTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BFC21CCDC9F50024C9B5 /* UIColor+KTKit.m */; };
+		6B33BFC61CCDCA360024C9B5 /* UINavigationBar+KTKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B33BFC51CCDCA360024C9B5 /* UINavigationBar+KTKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,32 @@
 		6B33BF8B1CCDC5AA0024C9B5 /* KTCategoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KTCategoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B33BF8F1CCDC5AA0024C9B5 /* KTCategoriesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTCategoriesUITests.m; sourceTree = "<group>"; };
 		6B33BF911CCDC5AA0024C9B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B33BFA01CCDC6890024C9B5 /* NSNotificationCenter+KTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+KTKit.h"; sourceTree = "<group>"; };
+		6B33BFA11CCDC6890024C9B5 /* NSNotificationCenter+KTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+KTKit.m"; sourceTree = "<group>"; };
+		6B33BFA31CCDC6B60024C9B5 /* NSString+KTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KTKit.h"; sourceTree = "<group>"; };
+		6B33BFA41CCDC6B60024C9B5 /* NSString+KTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KTKit.m"; sourceTree = "<group>"; };
+		6B33BFA61CCDC6F40024C9B5 /* NSDate+KTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KTKit.h"; sourceTree = "<group>"; };
+		6B33BFA71CCDC6F40024C9B5 /* NSDate+KTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KTKit.m"; sourceTree = "<group>"; };
+		6B33BFA91CCDC7AA0024C9B5 /* NSArray+KTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+KTKit.h"; sourceTree = "<group>"; };
+		6B33BFAA1CCDC7AA0024C9B5 /* NSArray+KTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+KTKit.m"; sourceTree = "<group>"; };
+		6B33BFAC1CCDC7D20024C9B5 /* UIApplication+KTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+KTKit.h"; sourceTree = "<group>"; };
+		6B33BFAD1CCDC7D20024C9B5 /* UIApplication+KTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+KTKit.m"; sourceTree = "<group>"; };
+		6B33BFAF1CCDC8290024C9B5 /* UIControl+KTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+KTKit.h"; sourceTree = "<group>"; };
+		6B33BFB01CCDC8290024C9B5 /* UIControl+KTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+KTKit.m"; sourceTree = "<group>"; };
+		6B33BFB21CCDC8A90024C9B5 /* UIDevice+KTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+KTKit.h"; sourceTree = "<group>"; };
+		6B33BFB31CCDC8A90024C9B5 /* UIDevice+KTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+KTKit.m"; sourceTree = "<group>"; };
+		6B33BFB51CCDC8DD0024C9B5 /* UIGestureRecognizer+KTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+KTKit.h"; sourceTree = "<group>"; };
+		6B33BFB61CCDC8DD0024C9B5 /* UIGestureRecognizer+KTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+KTKit.m"; sourceTree = "<group>"; };
+		6B33BFB81CCDC9730024C9B5 /* UIImage+KTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+KTKit.h"; sourceTree = "<group>"; };
+		6B33BFB91CCDC9730024C9B5 /* UIImage+KTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KTKit.m"; sourceTree = "<group>"; };
+		6B33BFBB1CCDC9950024C9B5 /* UIView+KTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KTKit.h"; sourceTree = "<group>"; };
+		6B33BFBC1CCDC9950024C9B5 /* UIView+KTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KTKit.m"; sourceTree = "<group>"; };
+		6B33BFBE1CCDC9B90024C9B5 /* UIView+KTLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KTLayout.h"; sourceTree = "<group>"; };
+		6B33BFBF1CCDC9B90024C9B5 /* UIView+KTLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KTLayout.m"; sourceTree = "<group>"; };
+		6B33BFC11CCDC9F50024C9B5 /* UIColor+KTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KTKit.h"; sourceTree = "<group>"; };
+		6B33BFC21CCDC9F50024C9B5 /* UIColor+KTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KTKit.m"; sourceTree = "<group>"; };
+		6B33BFC41CCDCA360024C9B5 /* UINavigationBar+KTKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+KTKit.h"; sourceTree = "<group>"; };
+		6B33BFC51CCDCA360024C9B5 /* UINavigationBar+KTKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+KTKit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +120,8 @@
 		6B33BF5E1CCDC5AA0024C9B5 = {
 			isa = PBXGroup;
 			children = (
-				6B33BF691CCDC5AA0024C9B5 /* KTCategories */,
+				6B33BF691CCDC5AA0024C9B5 /* Example */,
+				6B33BF9D1CCDC5F10024C9B5 /* KTCategories */,
 				6B33BF831CCDC5AA0024C9B5 /* KTCategoriesTests */,
 				6B33BF8E1CCDC5AA0024C9B5 /* KTCategoriesUITests */,
 				6B33BF681CCDC5AA0024C9B5 /* Products */,
@@ -98,20 +138,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6B33BF691CCDC5AA0024C9B5 /* KTCategories */ = {
+		6B33BF691CCDC5AA0024C9B5 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				6B33BF6A1CCDC5AA0024C9B5 /* Supporting Files */,
 				6B33BF6D1CCDC5AA0024C9B5 /* AppDelegate.h */,
 				6B33BF6E1CCDC5AA0024C9B5 /* AppDelegate.m */,
+				6B33BF761CCDC5AA0024C9B5 /* Assets.xcassets */,
+				6B33BF7B1CCDC5AA0024C9B5 /* Info.plist */,
+				6B33BF781CCDC5AA0024C9B5 /* LaunchScreen.storyboard */,
+				6B33BF731CCDC5AA0024C9B5 /* Main.storyboard */,
 				6B33BF701CCDC5AA0024C9B5 /* ViewController.h */,
 				6B33BF711CCDC5AA0024C9B5 /* ViewController.m */,
-				6B33BF731CCDC5AA0024C9B5 /* Main.storyboard */,
-				6B33BF761CCDC5AA0024C9B5 /* Assets.xcassets */,
-				6B33BF781CCDC5AA0024C9B5 /* LaunchScreen.storyboard */,
-				6B33BF7B1CCDC5AA0024C9B5 /* Info.plist */,
-				6B33BF6A1CCDC5AA0024C9B5 /* Supporting Files */,
 			);
-			path = KTCategories;
+			path = Example;
 			sourceTree = "<group>";
 		};
 		6B33BF6A1CCDC5AA0024C9B5 /* Supporting Files */ = {
@@ -119,14 +159,14 @@
 			children = (
 				6B33BF6B1CCDC5AA0024C9B5 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6B33BF831CCDC5AA0024C9B5 /* KTCategoriesTests */ = {
 			isa = PBXGroup;
 			children = (
-				6B33BF841CCDC5AA0024C9B5 /* KTCategoriesTests.m */,
 				6B33BF861CCDC5AA0024C9B5 /* Info.plist */,
+				6B33BF841CCDC5AA0024C9B5 /* KTCategoriesTests.m */,
 			);
 			path = KTCategoriesTests;
 			sourceTree = "<group>";
@@ -134,10 +174,59 @@
 		6B33BF8E1CCDC5AA0024C9B5 /* KTCategoriesUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6B33BF8F1CCDC5AA0024C9B5 /* KTCategoriesUITests.m */,
 				6B33BF911CCDC5AA0024C9B5 /* Info.plist */,
+				6B33BF8F1CCDC5AA0024C9B5 /* KTCategoriesUITests.m */,
 			);
 			path = KTCategoriesUITests;
+			sourceTree = "<group>";
+		};
+		6B33BF9D1CCDC5F10024C9B5 /* KTCategories */ = {
+			isa = PBXGroup;
+			children = (
+				6B33BF9E1CCDC6250024C9B5 /* Foundation */,
+				6B33BF9F1CCDC62C0024C9B5 /* UIKit */,
+			);
+			path = KTCategories;
+			sourceTree = "<group>";
+		};
+		6B33BF9E1CCDC6250024C9B5 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				6B33BFA91CCDC7AA0024C9B5 /* NSArray+KTKit.h */,
+				6B33BFAA1CCDC7AA0024C9B5 /* NSArray+KTKit.m */,
+				6B33BFA61CCDC6F40024C9B5 /* NSDate+KTKit.h */,
+				6B33BFA71CCDC6F40024C9B5 /* NSDate+KTKit.m */,
+				6B33BFA01CCDC6890024C9B5 /* NSNotificationCenter+KTKit.h */,
+				6B33BFA11CCDC6890024C9B5 /* NSNotificationCenter+KTKit.m */,
+				6B33BFA31CCDC6B60024C9B5 /* NSString+KTKit.h */,
+				6B33BFA41CCDC6B60024C9B5 /* NSString+KTKit.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		6B33BF9F1CCDC62C0024C9B5 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6B33BFAC1CCDC7D20024C9B5 /* UIApplication+KTKit.h */,
+				6B33BFAD1CCDC7D20024C9B5 /* UIApplication+KTKit.m */,
+				6B33BFC11CCDC9F50024C9B5 /* UIColor+KTKit.h */,
+				6B33BFC21CCDC9F50024C9B5 /* UIColor+KTKit.m */,
+				6B33BFAF1CCDC8290024C9B5 /* UIControl+KTKit.h */,
+				6B33BFB01CCDC8290024C9B5 /* UIControl+KTKit.m */,
+				6B33BFB21CCDC8A90024C9B5 /* UIDevice+KTKit.h */,
+				6B33BFB31CCDC8A90024C9B5 /* UIDevice+KTKit.m */,
+				6B33BFB51CCDC8DD0024C9B5 /* UIGestureRecognizer+KTKit.h */,
+				6B33BFB61CCDC8DD0024C9B5 /* UIGestureRecognizer+KTKit.m */,
+				6B33BFB81CCDC9730024C9B5 /* UIImage+KTKit.h */,
+				6B33BFB91CCDC9730024C9B5 /* UIImage+KTKit.m */,
+				6B33BFC41CCDCA360024C9B5 /* UINavigationBar+KTKit.h */,
+				6B33BFC51CCDCA360024C9B5 /* UINavigationBar+KTKit.m */,
+				6B33BFBB1CCDC9950024C9B5 /* UIView+KTKit.h */,
+				6B33BFBC1CCDC9950024C9B5 /* UIView+KTKit.m */,
+				6B33BFBE1CCDC9B90024C9B5 /* UIView+KTLayout.h */,
+				6B33BFBF1CCDC9B90024C9B5 /* UIView+KTLayout.m */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +360,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B33BF721CCDC5AA0024C9B5 /* ViewController.m in Sources */,
+				6B33BFB41CCDC8A90024C9B5 /* UIDevice+KTKit.m in Sources */,
 				6B33BF6F1CCDC5AA0024C9B5 /* AppDelegate.m in Sources */,
+				6B33BFA51CCDC6B60024C9B5 /* NSString+KTKit.m in Sources */,
+				6B33BFB11CCDC8290024C9B5 /* UIControl+KTKit.m in Sources */,
+				6B33BFBA1CCDC9730024C9B5 /* UIImage+KTKit.m in Sources */,
+				6B33BFBD1CCDC9950024C9B5 /* UIView+KTKit.m in Sources */,
+				6B33BFC61CCDCA360024C9B5 /* UINavigationBar+KTKit.m in Sources */,
+				6B33BFC01CCDC9B90024C9B5 /* UIView+KTLayout.m in Sources */,
+				6B33BFA21CCDC6890024C9B5 /* NSNotificationCenter+KTKit.m in Sources */,
+				6B33BFC31CCDC9F50024C9B5 /* UIColor+KTKit.m in Sources */,
+				6B33BFAE1CCDC7D20024C9B5 /* UIApplication+KTKit.m in Sources */,
+				6B33BFA81CCDC6F40024C9B5 /* NSDate+KTKit.m in Sources */,
+				6B33BFAB1CCDC7AA0024C9B5 /* NSArray+KTKit.m in Sources */,
+				6B33BFB71CCDC8DD0024C9B5 /* UIGestureRecognizer+KTKit.m in Sources */,
 				6B33BF6C1CCDC5AA0024C9B5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,6 +416,7 @@
 				6B33BF741CCDC5AA0024C9B5 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		6B33BF781CCDC5AA0024C9B5 /* LaunchScreen.storyboard */ = {
@@ -322,6 +425,7 @@
 				6B33BF791CCDC5AA0024C9B5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,7 +517,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = KTCategories/Info.plist;
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leisure.KTCategories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = KTCategories/Info.plist;
+				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.leisure.KTCategories;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +602,7 @@
 				6B33BF961CCDC5AA0024C9B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B33BF971CCDC5AA0024C9B5 /* Build configuration list for PBXNativeTarget "KTCategoriesTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +611,7 @@
 				6B33BF991CCDC5AA0024C9B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B33BF9A1CCDC5AA0024C9B5 /* Build configuration list for PBXNativeTarget "KTCategoriesUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +620,7 @@
 				6B33BF9C1CCDC5AA0024C9B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
